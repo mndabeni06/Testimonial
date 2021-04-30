@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+
+     <!-- 3rd Party Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    
+     <!-- Personal Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+  
+<body>
+
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="Content">
+        <div class="images">
+          <img src="./Images/Abdul-Malik.jpeg" alt="Picture">
+        </div>
+        <h2 class="heading">Abdul Malik</h2>
+        <h3 class="heading-2">CEO</h3>
+        <q  class="quote">Self-motivated individual who is eager to learn new things and share to younger generation.</q>
+      </div>
+
+
+      <div class="Content">
+        <div class="images">
+          <img src="./Images/Zwandile Sturman.jpeg" alt="Picture">
+        </div>
+        <h2 class="heading">Mzwandile Sturman</h2>
+        <h3 class="heading-2">Co-Founder</h3>
+        <q class="quote">Goal-dirven individual who strives for excellence and highly passionate about Software Development.</q>
+        </p>
+      </div>
+
+
+      <div class="Content">
+        <div>
+          <img src="./Images/Retshepile Koloko.jpeg" alt="Picture">
+        </div>
+        <h2 class="heading">Retshepile Koloko</h2>
+        <h3 class="heading-2">Director</h3>
+        <q class="quote">Purpose-driven person who is very fond of technology and aspires to be a in the space of technology"</q>
+      </div>
+    </div>
+
+  
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+</body>
+</html>
